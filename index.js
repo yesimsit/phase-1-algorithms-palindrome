@@ -1,8 +1,8 @@
 function isPalindrome(word) {
   return word == word.split("").reverse().join("") ? true : false;
 }
-console.log(isPalindrome(mom))
-/* 
+console.log(isPalindrome("mom"))
+/*   
   Add your pseudocode here
 */
 
